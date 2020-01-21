@@ -1,4 +1,4 @@
-FROM lemaral/nodejs-chrome-docker:latest
+FROM alexldocker/nodejs-chrome-docker:latest
 
 RUN apt-get update && \
     apt-get install -y xvfb
