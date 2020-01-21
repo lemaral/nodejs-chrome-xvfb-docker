@@ -1,4 +1,4 @@
-FROM thompsnm/nodejs-chrome:carbon
+FROM lemaral/nodejs-chrome:carbon
 
 RUN apt-get update && \
     apt-get install -y xvfb
