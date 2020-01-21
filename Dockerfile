@@ -1,4 +1,4 @@
-FROM thompsnm/nodejs-chrome:latest
+FROM lemaral/nodejs-chrome:latest
 
 RUN apt-get update && \
     apt-get install -y xvfb
